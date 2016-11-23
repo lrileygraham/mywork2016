@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,30 +16,170 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+  <link rel="stylesheet" href="css/github-prettify-theme.css">
+  <script src="js/site.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="dist/images/favicon.png">
 
 </head>
-<body>
+<body class="code-snippets-visible">
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Under Construction</h4>
-        <p> Updating is the name of the game. Check back soon, but until then feel free to catch up with me <a href="https://www.linkedin.com/in/rileylongo">here</a> and <a href="https://twitter.com/lrileygraham"> here</a> .</p>
+    <section class="header">
+      <h2 class="title">Riley Longo <br/> Product Designer. </h3>
+    </section>
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="#intro">About</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#mywork">Work</a>
+          <li class="navbar-item"><a class="navbar-link" href="#forms">Contact</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="http://iamrileylongo.tumblr.com/">My Resources</a></li>
+
+            <div id="moreNavPopover" class="popover">
+              <ul class="popover-list">
+                <li class="popover-item">
+                  <a class="popover-link" href="https://github.com/dhg/Skeleton">On Github</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="https://github.com/dhg/Skeleton#browser-support">Browsers</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="https://github.com/dhg/Skeleton#license">License</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="https://github.com/dhg/Skeleton#extensions">Extensions</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="https://github.com/dhg/Skeleton/releases">Versions</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="https://github.com/dhg/Skeleton#colophon">Colophon</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+    <div class="docs-section" id="intro">
+      <h6 class="docs-header">Who am I?</h6>
+    <p>I've had the opportunity to work for many different types of companies and consult at many places around the world. Each project has had its own challenges, varying in complexity and scope. Designing a product for people is inheritly dynmaic and naturally challenging. But, a product is only a success when it makes a persons life better than it was before. That is the reason I love what I do. <br/><br/>I believe it is important to keep product design involved throughout the process of building the product or designing a service. While it should be very involved from the very beginning with contextual inquiry, user research and usability tests, UX should continue to have a stake throughout the entire process. </p>
+
+Due to its nature, at the forefront of ideation, experience design is infinitely evolving as a practice. A personal goal of mine is to keep up with these changes, help to enact changes I am passionate about, and remain active in the software design community. Happily and passionately advocating for users everyday. Find and follow me <a href="https://twitter.com/lrileygraham">@lrileygraham</a> and <a href="https://www.linkedin.com/in/rileylongo">LinkedIn.</a></p>
+    </div>
+
+
+  <!-- Work -->
+  <div class="docs-section examples" id="mywork">
+    <h6 class="docs-header">Work</h6>
+    <div class="row example">
+      <a class="example-screenshot-wrapper" target="_blank" href="examples/landing">
+        <img class="example-screenshot" src="images/Trial.gif">
+      </a>
+      <div class="one-half offset-by-one-half column">
+        <h6 class="example-header">Prototyping Ideas</h6>
+        <p class="example-description"> This is a very early prototype created to understand the needs of the business and validate its technical buoyancy. Often I will create these to be reviewed by the team and stakeholders, define a general vision and begin moving forward in one direction. Along the way, I may create more prototypes to help explain interactions and intended functionality.</p>
+        <!-- Button   <a class="button" href="examples/landing" target="_blank">Learn more about this project</a> -->
+      </div>
+    </div>
+    <div class="row example">
+      <div class="example-screenshot-wrapper">
+      <img class="example-screenshot" src="images/FlowDiagram.png">
+      </div>
+      <div class="one-half offset-by-one-half column">
+        <h6 class="example-header">Flow Diagram</h6>
+        <p class="example-description">Understanding the information architecture of a tool, is very important for the team and stakeholders responsible for the product. I create these flow diagrams as articfacts that can be referred to during development and shared with those who have buy-in to the project. Periodically I will update them when things change during the lifecycle of product development. </p>
+        <!-- Button <a class="button" href="examples/landing" target="_blank">Learn more about this project</a> -->
+      </div>
+    </div>
+    <div class="row example">
+      <div class="example-screenshot-wrapper">
+      <img class="example-screenshot" src="images/AgileDesign.png">
+      </div>
+      <div class="one-half offset-by-one-half column">
+        <h6 class="example-header">Agile Design Presentation</h6>
+        <p class="example-description">Agile developement incorporates test driven development, continuous integration, paired programming and quick iterative cycles. So how does design fit into this model? In 2012 I attended a conference called UXMad and gave a talk explaining the role and value of design on an agile team.  </p>
+        <a class="button" href="http://www.slideshare.net/lrileygraham/uxmad-agile-design" target="_blank">View Presentation</a>
       </div>
     </div>
   </div>
+
+
+
+  <!-- Forms -->
+  <div class="docs-section" id="forms">
+    <h6 class="docs-header">Forms</h6>
+    <p>Forms are a huge pain, but hopefully these styles make it a bit easier. All inputs, select, and buttons are normalized for a common height cross-browser so inputs can be stacked or placed alongside each other.</p>
+    <div class="docs-example docs-example-forms">
+      <div id="form-messages"></div>
+      <form id="ajax-contact" method="post" action="php/mailer.php">
+        <div class="row">
+          <div class="six columns">
+            <label for="exampleEmailInput">Your email</label>
+            <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput" required>
+          </div>
+          <div class="six columns">
+            <label for="exampleRecipientInput">Reason for contacting</label>
+            <select class="u-full-width" id="exampleRecipientInput">
+              <option value="Option 1">Questions</option>
+              <option value="Option 2">Job opporunity</option>
+              <option value="Option 3">Networking</option>
+            </select>
+          </div>
+        </div>
+        <label for="exampleMessage">Message</label>
+        <textarea class="u-full-width" placeholder="Hi Dave &hellip;" id="exampleMessage" required></textarea>
+        <label class="example-send-yourself-copy">
+          <input type="checkbox">
+          <span class="label-body">Send a copy to yourself</span>
+        </label>
+        <input class="button-primary" type="submit" value="Submit">
+      </form>
+    </div>
+
+
+
+  </div>
+
+  <script src="js/jquery-2.1.0.min.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- Google Analytics -->
+  <script type="text/javascript">
+
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33397759-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
